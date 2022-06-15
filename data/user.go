@@ -4,7 +4,7 @@ import (
 	userpb "github.com/zinirun/learn-go-grpc/protos/v1/user"
 )
 
-var UserData = []*userpb.UserMessage{
+var Users = []*userpb.UserMessage{
 	{
 		UserId:      "1",
 		Name:        "Henry",
